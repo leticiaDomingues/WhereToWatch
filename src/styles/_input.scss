@@ -1,0 +1,22 @@
+input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid $primary-color;
+    color: $secondary-color;
+    min-width: 250px;
+    line-height: 150%;
+    
+    &:focus {
+        border: 0;
+        border-bottom: 1px solid $primary-color;
+        outline: none;
+    }
+
+    &.search {
+        background-image: url(/assets/images/search.svg);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-size: 16px;
+        padding-right: 20px;
+    }
+}

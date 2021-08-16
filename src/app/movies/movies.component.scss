@@ -1,0 +1,10 @@
+.movies-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .movie-card {
+        width: 8.33%;
+        height: auto;
+    }
+}

@@ -1,0 +1,19 @@
+@import '/src/styles/styles.scss';
+
+
+nav.nav-wrapper {
+    height: 56px;
+    background-color: $background-color;
+    color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    section {
+        margin: 8px 24px;
+
+        &.logo-wrapper img {
+            height: 32px;
+        }
+    }
+}

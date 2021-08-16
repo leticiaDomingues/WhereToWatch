@@ -1,0 +1,5 @@
+<section class="movies-wrapper" scrollTracker (onScrolledToBottom)="loadMoreMovies()">
+    <div *ngFor="let movie of movies" class="movie-card">
+        <app-movie-poster [movie]="movie"></app-movie-poster>
+    </div>
+</section>
